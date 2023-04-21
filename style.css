@@ -4,35 +4,38 @@ background-color: #f8f8f8;
 color: #333;
 font-family: Lato, sans-serif;
 }
-.aaa {
+.top-image {
 width: 500px;
 margin: 0 auto;
 display: block;
 text-align: right;
 }
-.aaa img {
+.top-image img {
 width: 100%;
 }
-.aaa .more_inf {
+.top-image .more-info {
 font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-.aaa {
-    text-align: center;
+.top-image {
+  text-align: center;
 }
 }
-.centered-main-page-element {
+.main-page {
 display: block;
 width: 500px;
-margin: 0 auto 0;
 }
+.main-page.main-page_centered {
+  margin: 0 auto 0;
+}
+
 .task {
 width: 56%;
 display: inline-block;
 flex-grow: 1;
 }
-.task-row-wrapper {
+.new-task-wrapper {
 display: flex;
 }
 ul {
@@ -89,7 +92,7 @@ color: #333;
 /* New Task */
 label[for="new-task"] {
 display: block;
-margin: 0 0 20px;
+margin: 16px 0 20px;
 }
 input#new-task {
 width: 318px;
@@ -141,11 +144,11 @@ ul li input[type="text"] {
 display: none;
 }
 
-ul li.editMode input[type="text"] {
+ul li.edit-mode input[type="text"] {
 display: inline-block;
 width: 224px;
 }
 
-ul li.editMode label {
+ul li.edit-mode label {
 display: none;
 }
