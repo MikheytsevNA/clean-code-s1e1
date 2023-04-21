@@ -1,0 +1,36 @@
+/* list-item block */
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-item > * {
+  vertical-align: middle;
+}
+
+/* Edit Task */
+
+.list-item .task__text-inputs {
+  display: none;
+}
+
+.list-item.edit-mode .text-inputs {
+  display: inline-block;
+  width: 224px;
+}
+
+.list-item.edit-mode .task__text-inputs {
+  display: inline-block;
+  width: 100%;
+  max-width: 327px;
+}
+
+.list-item.edit-mode .text-labels {
+  display: none;
+}
+
+.list-item.edit-mode .task__text-labels {
+  display: none;
+}
