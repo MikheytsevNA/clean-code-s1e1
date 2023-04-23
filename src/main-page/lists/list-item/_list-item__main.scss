@@ -1,0 +1,15 @@
+.list-item__main {
+  width: 56%;
+  display: inline-block;
+  flex-grow: 1;
+  padding-left: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 226px;
+}
+
+/* Completed */
+#completed-tasks .list-item__main {
+  text-decoration: line-through;
+  color: #888;
+}
