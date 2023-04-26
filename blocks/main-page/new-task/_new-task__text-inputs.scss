@@ -1,0 +1,17 @@
+.new-task__text-inputs {
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 21px;
+  padding: 0 0 0 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: #888;
+  flex-grow: 1;
+}
+
+.new-task__text-inputs:focus {
+  color: #333;
+}

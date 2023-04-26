@@ -1,5 +1,5 @@
-/* footer block */
-.footer {
+/* header block */
+header {
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -7,15 +7,17 @@
 }
 
 @media (max-width: 768px) {
-  .footer {
+
+  .header {
     text-align: center;
   }
+  
 }
-.footer .footer__img {
+.header .header__img {
   width: 100%;
 }
 
-.footer .footer__more-info {
+.header .header__more-info {
   font-family: fantasy, cursive;
 }
 
@@ -198,7 +200,7 @@
   margin: 0 auto 0;
 }
 
-body {
+.container {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
