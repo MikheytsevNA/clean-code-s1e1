@@ -1,0 +1,16 @@
+/* header block */
+
+.header {
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+
+  .header {
+    text-align: center;
+  }
+
+}
