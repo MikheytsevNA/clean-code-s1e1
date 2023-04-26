@@ -9,13 +9,13 @@ function watch () {
         server: "./"
     });
 
-    gulp.watch("./src/**/*.scss", style);
+    gulp.watch("./blocks/**/*.scss", style);
     gulp.watch("./*.html").on('change', browserSync.reload);
 };
 
 // Compile sass into CSS & auto-inject into browsers
 function style() {
-    return gulp.src("./src/**/*.scss")
+    return gulp.src("./blocks/**/*.scss")
         .pipe(sass())
         .pipe(gulp.dest("./css"))
         .pipe(browserSync.stream());
